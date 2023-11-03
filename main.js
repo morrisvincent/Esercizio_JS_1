@@ -1,10 +1,10 @@
 /* ESERCIZIO 1 */
 
-let name = `Ciao sono Morris, ho`
+let name = `Morris`
 let age = 37;
-let subject = `anni e sto studiando JavaScript`
-let FaveTeacher= `con il mio insegnante preferito Valario Vacca!`
-let Tot = `${name} ${age} ${subject} ${FaveTeacher}`
+let subject = `JavaScript`
+let faveTeacher= `Valario Vacca`
+let tot = `Ciao sono ${name}, ho ${age} e sto studiando ${subject} con il mio insegnante preferito ${FaveTeacher}!`
 
 console.log(Tot);
 
