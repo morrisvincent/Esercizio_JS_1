@@ -44,7 +44,7 @@ let file_piene_intere = Math.floor(file)
 console.log(file_piene_intere);
 
 let gatti_gia_in_fila = (gatti_tot-(file_piene_intere * gatti_fila));
-/* let gatti_gia_in_fila = gatti_fila % gatti_fila */
+/* let gatti_gia_in_fila = gatti_tot % gatti_fila */
 console.log(gatti_gia_in_fila);
 
 let gatti_mancanti_fila_da_riempire = gatti_fila - gatti_gia_in_fila;
